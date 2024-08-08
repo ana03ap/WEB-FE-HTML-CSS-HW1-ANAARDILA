@@ -4,10 +4,17 @@
 header, section {
     border: 1px black solid;
     padding: 2pc;
+    
 }
 
-header div,img{
+header #info-header,img{
 display: inline-block;
+vertical-align: middle;
+
+}
+
+header #info-header{
+    padding-right: 16pc;
 }
 
 header img {
@@ -15,11 +22,16 @@ header img {
 }
 
 
-.titulo img,h2{
+.title img,h2{
     display: inline-block;
-    vertical-align: middle; /* para centrar verticalmente img y h2*/
+    vertical-align: middle; /* pa centrar verticalmente img y h2*/
 }
 
-.titulo img{
+.title img{
     margin-right: 10px; /* gap pa que no esté al lado del img */
+}
+
+#name-courses, #date-courses{
+    display: inline-block;
+    vertical-align: middle; /* pa centrar verticalmente img y h2*/
 }
