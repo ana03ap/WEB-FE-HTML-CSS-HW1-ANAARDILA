@@ -1,8 +1,9 @@
 
 
 
-header {
+header, section {
     border: 1px black solid;
+    padding: 2pc;
 }
 
 header div,img{
@@ -11,4 +12,14 @@ display: inline-block;
 
 header img {
     padding-bottom: 7pc;
+}
+
+
+.titulo img,h2{
+    display: inline-block;
+    vertical-align: middle; /* para centrar verticalmente img y h2*/
+}
+
+.titulo img{
+    margin-right: 10px; /* gap pa que no esté al lado del img */
 }
