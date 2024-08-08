@@ -1,0 +1,14 @@
+
+
+
+header {
+    border: 1px black solid;
+}
+
+header div,img{
+display: inline-block;
+}
+
+header img {
+    padding-bottom: 7pc;
+}
