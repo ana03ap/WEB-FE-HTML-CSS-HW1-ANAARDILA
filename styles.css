@@ -19,6 +19,7 @@ header, footer{
     background-repeat: no-repeat;
 }
 
+/* header */
 header div{
 display: inline-block;
 vertical-align: middle;
@@ -57,6 +58,8 @@ vertical-align: middle;
     color: #aa7c4e;
 }
 
+/* about */
+
 #about p{
     text-align: justify;
 }
@@ -67,17 +70,37 @@ vertical-align: middle;
 }
 
 
-#name-courses, #date-courses{
+
+
+.L-Info, .R-Info{
     display: inline-block;
     vertical-align: middle; /* pa centrar verticalmente img y h2*/
     gap: 1pc;
 }
 
-#name-courses li, #date-courses li{
+.L-Info li, .R-Info li{
     list-style: none;
 }
 
+#name-courses{
+    margin-right: 32px;
+}
+
+/* skills */
+#name-skills ol li:first-child,
+#name-skills ol li:last-child,
+#puntuacion-skills ol li:first-child,
+#puntuacion-skills ol li:last-child
+{
+    font-weight: bold;
+    color: #d39658;
+}
+
 /* experience  */
+
+.project h1{
+    color: #6b3f2e;
+}
 
 /* BOOKS */
 
@@ -100,10 +123,8 @@ footer{
 }
 
 #icons-footer a{
-  
     text-decoration: none;
     color: black; 
     margin: 0 auto; 
     width: 50%; 
-    
 }
