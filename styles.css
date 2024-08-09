@@ -70,12 +70,9 @@ vertical-align: middle;
 }
 
 
-
-
 .L-Info, .R-Info{
     display: inline-block;
     vertical-align: middle; /* pa centrar verticalmente img y h2*/
-    gap: 1pc;
 }
 
 .L-Info li, .R-Info li{
@@ -96,10 +93,15 @@ vertical-align: middle;
     color: #d39658;
 }
 
-/* experience  */
 
+
+/* experience  */
 .project h1{
     color: #6b3f2e;
+}
+
+.project{
+    margin: 32px 0;
 }
 
 /* BOOKS */
