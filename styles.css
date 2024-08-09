@@ -1,26 +1,31 @@
 *{
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 
 header, section {
-    border: 1px black solid;
     padding: 2pc;
-    
+}
+
+header, footer{
+    color: white;
+    background-image: url('img/bg-header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header #info-header,img{
 display: inline-block;
 vertical-align: middle;
-
 }
 
-header #info-header{
-    padding-right: 16pc;
-}
-
-header img {
-    padding-bottom: 7pc;
+ #info-header{
+    padding-right: 32%;
+    padding-left: 8%;
 }
 
 
@@ -36,4 +41,21 @@ header img {
 #name-courses, #date-courses{
     display: inline-block;
     vertical-align: middle; /* pa centrar verticalmente img y h2*/
+}
+
+
+
+/* footer */
+footer{
+    padding: 8px;
+    text-align: center; /* Opcional: centrar texto dentro del div */
+}
+
+#icons-footer a{
+  
+    text-decoration: none;
+    color: black; /* Cambia a cualquier color que desees */
+    margin: 0 auto; /* Centrar horizontalmente */
+    width: 50%; /* Ancho del elemento */
+    
 }
