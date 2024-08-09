@@ -10,6 +10,9 @@
 header, section {
     padding: 2pc;
 }
+header{
+    text-align: center; 
+}
 
 header, footer{
     color: rgb(255, 255, 255);
@@ -21,20 +24,41 @@ header, footer{
 
 /* header */
 header div{
-display: inline-block;
-vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
 
- #info-header{
-    padding-right: 16%;
-    padding-left: 8%;
-}
 
-#cont-img-header{
+/* #cont-img-header{
     background-color:rgb(255, 255, 255);
     padding: 8px;
     border-radius: 0.5rem;
-}
+} */
+
+
+
+header {
+    text-align: center; 
+    font-size: 0;
+  }
+   
+  #info-header, #cont-img-header {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    font-size: 16px;
+    
+  }
+  #cont-img-header {
+    text-align: right;
+  }
+   
+  .#cont-img-header img {
+    display: inline-block;
+  }
+
+
+
 
 
 .title{
