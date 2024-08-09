@@ -1,6 +1,7 @@
 *{
     list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -11,23 +12,27 @@ header, section {
 }
 
 header, footer{
-    color: white;
+    color: rgb(255, 255, 255);
     background-image: url('img/bg-header.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-header #info-header,img{
+header div{
 display: inline-block;
 vertical-align: middle;
 }
 
  #info-header{
-    padding-right: 32%;
+    padding-right: 16%;
     padding-left: 8%;
 }
 
+#cont-img-header{
+    background-color:rgb(255, 255, 255);
+    padding: 8px;
+}
 
 .title img,h2{
     display: inline-block;
